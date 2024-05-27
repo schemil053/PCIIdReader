@@ -102,7 +102,7 @@ public class Main {
                         String devName = stringEntry.getValue();
 
                         writer.write("    ");
-                        writer.write("{0x"+Integer.toHexString(venID)+", 0x"+Integer.toHexString(devID)+", \""+vendorName+"\", \""+devName+"\"}");
+                        writer.write("{0x"+Integer.toHexString(venID)+", 0x"+Integer.toHexString(devID)+", \""+vendorName+"\", \""+devName+"\"},");
                         writer.write("\n");
                     }
                 }
